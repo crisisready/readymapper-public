@@ -1,3 +1,5 @@
+**NOTE:** This codebase contains all scripts for processing ReadyMapper data and generating the application and reports; however, data sharing agreements with certain providers require credentials which have been removed in this repo, so the repository does not provide full functionality. For complete functionality, the user must obtain all necessary credentials on their own and include them in the code. For guidance on including credentials to obtain a fully functioning code base, reach out to the CrisisReady team. 
+
 # ReadyMapper (direct-relief)
 
 ReadyMapper provides a way to ingest and visualize data relevant to disasters, particularly their inpact on healthcare.
