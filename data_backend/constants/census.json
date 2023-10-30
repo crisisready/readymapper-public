@@ -1,0 +1,345 @@
+{
+  "usStates": [{
+      "fips": "01",
+      "abbrev": "AL",
+      "name": "Alabama",
+      "gnis": "01779775"
+    },
+    {
+      "fips": "02",
+      "abbrev": "AK",
+      "name": "Alaska",
+      "gnis": "01785533"
+    },
+    {
+      "fips": "04",
+      "abbrev": "AZ",
+      "name": "Arizona",
+      "gnis": "01779777"
+    },
+    {
+      "fips": "05",
+      "abbrev": "AR",
+      "name": "Arkansas",
+      "gnis": "00068085"
+    },
+    {
+      "fips": "06",
+      "abbrev": "CA",
+      "name": "California",
+      "gnis": "01779778"
+    },
+    {
+      "fips": "08",
+      "abbrev": "CO",
+      "name": "Colorado",
+      "gnis": "01779779"
+    },
+    {
+      "fips": "09",
+      "abbrev": "CT",
+      "name": "Connecticut",
+      "gnis": "01779780"
+    },
+    {
+      "fips": "10",
+      "abbrev": "DE",
+      "name": "Delaware",
+      "gnis": "01779781"
+    },
+    {
+      "fips": "11",
+      "abbrev": "DC",
+      "name": "District of Columbia",
+      "gnis": "01702382"
+    },
+    {
+      "fips": "12",
+      "abbrev": "FL",
+      "name": "Florida",
+      "gnis": "00294478"
+    },
+    {
+      "fips": "13",
+      "abbrev": "GA",
+      "name": "Georgia",
+      "gnis": "01705317"
+    },
+    {
+      "fips": "15",
+      "abbrev": "HI",
+      "name": "Hawaii",
+      "gnis": "01779782"
+    },
+    {
+      "fips": "16",
+      "abbrev": "ID",
+      "name": "Idaho",
+      "gnis": "01779783"
+    },
+    {
+      "fips": "17",
+      "abbrev": "IL",
+      "name": "Illinois",
+      "gnis": "01779784"
+    },
+    {
+      "fips": "18",
+      "abbrev": "IN",
+      "name": "Indiana",
+      "gnis": "00448508"
+    },
+    {
+      "fips": "19",
+      "abbrev": "IA",
+      "name": "Iowa",
+      "gnis": "01779785"
+    },
+    {
+      "fips": "20",
+      "abbrev": "KS",
+      "name": "Kansas",
+      "gnis": "00481813"
+    },
+    {
+      "fips": "21",
+      "abbrev": "KY",
+      "name": "Kentucky",
+      "gnis": "01779786"
+    },
+    {
+      "fips": "22",
+      "abbrev": "LA",
+      "name": "Louisiana",
+      "gnis": "01629543"
+    },
+    {
+      "fips": "23",
+      "abbrev": "ME",
+      "name": "Maine",
+      "gnis": "01779787"
+    },
+    {
+      "fips": "24",
+      "abbrev": "MD",
+      "name": "Maryland",
+      "gnis": "01714934"
+    },
+    {
+      "fips": "25",
+      "abbrev": "MA",
+      "name": "Massachusetts",
+      "gnis": "00606926"
+    },
+    {
+      "fips": "26",
+      "abbrev": "MI",
+      "name": "Michigan",
+      "gnis": "01779789"
+    },
+    {
+      "fips": "27",
+      "abbrev": "MN",
+      "name": "Minnesota",
+      "gnis": "00662849"
+    },
+    {
+      "fips": "28",
+      "abbrev": "MS",
+      "name": "Mississippi",
+      "gnis": "01779790"
+    },
+    {
+      "fips": "29",
+      "abbrev": "MO",
+      "name": "Missouri",
+      "gnis": "01779791"
+    },
+    {
+      "fips": "30",
+      "abbrev": "MT",
+      "name": "Montana",
+      "gnis": "00767982"
+    },
+    {
+      "fips": "31",
+      "abbrev": "NE",
+      "name": "Nebraska",
+      "gnis": "01779792"
+    },
+    {
+      "fips": "32",
+      "abbrev": "NV",
+      "name": "Nevada",
+      "gnis": "01779793"
+    },
+    {
+      "fips": "33",
+      "abbrev": "NH",
+      "name": "New Hampshire",
+      "gnis": "01779794"
+    },
+    {
+      "fips": "34",
+      "abbrev": "NJ",
+      "name": "New Jersey",
+      "gnis": "01779795"
+    },
+    {
+      "fips": "35",
+      "abbrev": "NM",
+      "name": "New Mexico",
+      "gnis": "00897535"
+    },
+    {
+      "fips": "36",
+      "abbrev": "NY",
+      "name": "New York",
+      "gnis": "01779796"
+    },
+    {
+      "fips": "37",
+      "abbrev": "NC",
+      "name": "North Carolina",
+      "gnis": "01027616"
+    },
+    {
+      "fips": "38",
+      "abbrev": "ND",
+      "name": "North Dakota",
+      "gnis": "01779797"
+    },
+    {
+      "fips": "39",
+      "abbrev": "OH",
+      "name": "Ohio",
+      "gnis": "01085497"
+    },
+    {
+      "fips": "40",
+      "abbrev": "OK",
+      "name": "Oklahoma",
+      "gnis": "01102857"
+    },
+    {
+      "fips": "41",
+      "abbrev": "OR",
+      "name": "Oregon",
+      "gnis": "01155107"
+    },
+    {
+      "fips": "42",
+      "abbrev": "PA",
+      "name": "Pennsylvania",
+      "gnis": "01779798"
+    },
+    {
+      "fips": "44",
+      "abbrev": "RI",
+      "name": "Rhode Island",
+      "gnis": "01219835"
+    },
+    {
+      "fips": "45",
+      "abbrev": "SC",
+      "name": "South Carolina",
+      "gnis": "01779799"
+    },
+    {
+      "fips": "46",
+      "abbrev": "SD",
+      "name": "South Dakota",
+      "gnis": "01785534"
+    },
+    {
+      "fips": "47",
+      "abbrev": "TN",
+      "name": "Tennessee",
+      "gnis": "01325873"
+    },
+    {
+      "fips": "48",
+      "abbrev": "TX",
+      "name": "Texas",
+      "gnis": "01779801"
+    },
+    {
+      "fips": "49",
+      "abbrev": "UT",
+      "name": "Utah",
+      "gnis": "01455989"
+    },
+    {
+      "fips": "50",
+      "abbrev": "VT",
+      "name": "Vermont",
+      "gnis": "01779802"
+    },
+    {
+      "fips": "51",
+      "abbrev": "VA",
+      "name": "Virginia",
+      "gnis": "01779803"
+    },
+    {
+      "fips": "53",
+      "abbrev": "WA",
+      "name": "Washington",
+      "gnis": "01779804"
+    },
+    {
+      "fips": "54",
+      "abbrev": "WV",
+      "name": "West Virginia",
+      "gnis": "01779805"
+    },
+    {
+      "fips": "55",
+      "abbrev": "WI",
+      "name": "Wisconsin",
+      "gnis": "01779806"
+    },
+    {
+      "fips": "56",
+      "abbrev": "WY",
+      "name": "Wyoming",
+      "gnis": "01779807"
+    },
+    {
+      "fips": "60",
+      "abbrev": "AS",
+      "name": "American Samoa",
+      "gnis": "01802701"
+    },
+    {
+      "fips": "66",
+      "abbrev": "GU",
+      "name": "Guam",
+      "gnis": "01802705"
+    },
+    {
+      "fips": "69",
+      "abbrev": "MP",
+      "name": "Northern Mariana Islands",
+      "gnis": "01779809"
+    },
+    {
+      "fips": "72",
+      "abbrev": "PR",
+      "name": "Puerto Rico",
+      "gnis": "01779808"
+    },
+    {
+      "fips": "74",
+      "abbrev": "UM",
+      "name": "U.S. Minor Outlying Islands",
+      "gnis": "01878752"
+    },
+    {
+      "fips": "78",
+      "abbrev": "VI",
+      "name": "U.S. Virgin Islands",
+      "gnis": "01802710"
+    }
+  ]
+}

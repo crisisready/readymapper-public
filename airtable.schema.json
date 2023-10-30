@@ -1,0 +1,76 @@
+{
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "A unique ID for each disaster",
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the disaster, as it will be displayed",
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of the disaster",
+      "possibleValues": [
+        "fire",
+        "hurricane"
+      ]
+    },
+    "lng": {
+      "type": "number",
+      "description": "The longitude of the disaster. The app will center on this position when the map loads",
+    },
+    "zoom": {
+      "type": "number",
+      "description": "The Mapbox zoom level for the initial map view (decimal value between 0 [most zoomed out] and 22 [most zoomed in])",
+    },
+    "dateStart": {
+      "type": "string",
+      "description": "The initial date and time for the disaster, in YYYY-MM-DD HH:mm format",
+    },
+    "dateEnd": {
+      "type": "string",
+      "description": "The final date and time for the disaster, in YYYY-MM-DD HH:mm format",
+    },
+    "dataReportingIntervalHours": {
+      "type": "number",
+      "description": "The smallest frequency of update for your data, in hours. For example, if your most frequent data updates every 8 hours, you should set this to 8",
+    },
+    "usStatesAffected": {
+      "type": "[string]",
+      "description": "An array of strings, with the 2 letter codes for the US states affected by the disaster",
+    },
+    "swLng": {
+      "type": "number",
+      "description": "The southwest longitude for the bounding box of the disaster",
+    },
+    "swLat": {
+      "type": "number",
+      "description": "The southwest latitude for the bounding box of the disaster",
+    },
+    "neLng": {
+      "type": "number",
+      "description": "The northeast longitude for the bounding box of the disaster",
+    },
+    "neLat": {
+      "type": "number",
+      "description": "The northeast latitude for the bounding box of the disaster",
+    },
+    "isPublic": {
+      "type": "boolean",
+      "description": "Set to true if you want the disaster to be displayed to the user in the menus. Remember that you can always see any disaster by going directly to its url, even when it is not set to public",
+    },
+    "isArchived": {
+      "type": "boolean",
+      "description": "Set to true if you want the disaster to be displayed to the user in the menus as archived",
+    },
+    "censusVintage": {
+      "type": "number",
+      "description": "The year of the Census data to be used for this disaster",
+    },
+    "wfigsIncidentName": {
+      "type": "string",
+      "description": "The name of the fire polygon, as specified by WFIGS. This is optional and only used to show the correct fires burned acreage in fire disasters where there are multiple fires in the bounding box of the disater",
+    }
+  }
+}

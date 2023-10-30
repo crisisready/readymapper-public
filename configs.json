@@ -1,0 +1,20 @@
+{
+  "airtable": {
+    "apiKey": "",
+    "baseId": "",
+    "tableName": "",
+    "viewName": "",
+    "aboutContentTable": "",
+    "aboutContentView": ""
+  },
+  "s3": {
+    "bucket": "",
+    "cloudfrontBaseUrl": "",
+    "cloudfrontDistributionId": "",
+    "outputFolder": ""
+  },
+  "mapbox": {
+    "accessToken": "",
+    "styleUrl": ""
+  }
+}
