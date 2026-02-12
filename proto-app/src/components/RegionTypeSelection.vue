@@ -90,10 +90,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../variables.scss';
+@use '../variables.scss';
 
 .region-selection-container {
-  border-top: 1px solid $light-grey;
+  border-top: 1px solid variables.$light-grey;
   display: flex;
   justify-content: space-between;
   margin: 0px 15px;
@@ -117,7 +117,7 @@ export default {
   width: 100%;
   height: 25px;
 
-  border: 1px solid $vibrant-blue;
+  border: 1px solid variables.$vibrant-blue;
   background: none;
   cursor: pointer;
   box-sizing: border-box;
@@ -125,7 +125,7 @@ export default {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: $vibrant-blue;
+  color: variables.$vibrant-blue;
 
   border-radius: 4px 0 0 4px;
   &:last-child {
@@ -134,11 +134,11 @@ export default {
   }
 
   &.toggled {
-    background: rgba($vibrant-blue, 0.2);
+    background: rgba(variables.$vibrant-blue, 0.2);
   }
 
   &:hover {
-    background: rgba($vibrant-blue, 0.1);
+    background: rgba(variables.$vibrant-blue, 0.1);
   }
 }
 
@@ -147,7 +147,7 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  background: $light-grey;
+  background: variables.$light-grey;
   border-radius: 20px;
   width: 80px;
 }

@@ -328,7 +328,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '../variables.scss';
+@use '../variables.scss';
 
 h3 {
   margin: 0 0 0.5em;
@@ -399,7 +399,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   height: 36px;
-  background: $light-grey;
+  background: variables.$light-grey;
   border-radius: 4px;
   flex-shrink: 0;
   margin: 0px 15px;

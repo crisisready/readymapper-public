@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-@import './variables.scss';
+@use './variables.scss';
 
 html, body {
   margin: 0px;
@@ -40,7 +40,7 @@ html, body {
 button {
   background: none;
   border: none;
-  color: $vibrant-blue;
+  color: variables.$vibrant-blue;
   cursor: pointer;
   font-weight: bold;
   padding: 0;
@@ -49,7 +49,7 @@ button {
   justify-content: center;
   
   &:hover {
-    color: rgba($vibrant-blue, 0.9);
+    color: rgba(variables.$vibrant-blue, 0.9);
   }
 }
 
@@ -63,21 +63,21 @@ button {
   flex-shrink: 0;
 
   &.solid {
-    background: $vibrant-blue;
+    background: variables.$vibrant-blue;
     &:hover {
       background: #0064DA;
     }
   }
 
   &.empty {
-    border: 1px solid $vibrant-blue;
+    border: 1px solid variables.$vibrant-blue;
     &:hover {
-      background: rgba($vibrant-blue, 0.1);
+      background: rgba(variables.$vibrant-blue, 0.1);
     }
   }
 
   &.grey {
-    background: $grey;
+    background: variables.$grey;
   }
 }
 

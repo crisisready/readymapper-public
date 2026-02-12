@@ -48,8 +48,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../variables.scss';
-
 .disaster-title {
   border-radius: 6px 6px 0 0;
   height: 46px;

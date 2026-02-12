@@ -1,8 +1,10 @@
 <template>
   <table class="summary-table">
     <thead>
-      <th>{{title}}</th>
-      <th class="light" v-for="col in columnNames" :key="col">{{col}}</th>
+      <tr>
+        <th>{{title}}</th>
+        <th class="light" v-for="col in columnNames" :key="col">{{col}}</th>
+      </tr>
     </thead>
     <tbody>
       <tr v-for="row in rows" :key="row.title">
