@@ -100,10 +100,10 @@ export default createStore({
 
     disasterIconByType: (state) => (type) => {
       if (type === 'fire') {
-        return `img/wildfire-header-icon.svg`
+        return new URL('@/assets/img/wildfire-header-icon.svg', import.meta.url).href;
       }
       if ((type === 'hurricane') || (type === 'cyclone') ) {
-        return `img/hurricane-header-icon.svg`
+        return new URL('@/assets/img/hurricane-header-icon.svg', import.meta.url).href;
       }
       return ''
     },
