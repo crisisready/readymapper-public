@@ -2,19 +2,22 @@
   <div class="legend-container">
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/fire-diff.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/fire-diff.png">
         <div>Fire perimeter</div>
       </div>
     </div>
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/fire.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/fire.png">
         <div>New fire perimeter growth</div>
       </div>
     </div>
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 23px;" src="img/smoke.png">
+        <img class="legend-image" style="height: 15px; width: 23px;"
+        src="@/assets/img/smoke.png">
         <div>Heavy Density Smoke</div>
       </div>
     </div>

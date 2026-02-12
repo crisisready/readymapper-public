@@ -38,9 +38,9 @@
 
   import { settings } from '../../constants/settings'
 
-  import ReportTable from './ReportTable'
-  import PopDensityLegendReport from './PopDensityLegendReport'
-  import ReportNotes from './ReportNotes'
+  import ReportTable from './ReportTable.vue'
+  import PopDensityLegendReport from './PopDensityLegendReport.vue'
+  import ReportNotes from './ReportNotes.vue'
 
   export default {
     name: 'ReportMobilityMatrixSection',

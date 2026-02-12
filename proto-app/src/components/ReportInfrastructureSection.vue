@@ -73,9 +73,9 @@
   import { toTitleCase } from './utils/toTitleCase'
   import { getIsochroneForPlace } from './utils/getIsochroneForPlace'
 
-  import ReportTable from './ReportTable'
-  import HealthcareFacilitiesLegend from './HealthcareFacilitiesLegend'
-  import ReportNotes from './ReportNotes'
+  import ReportTable from './ReportTable.vue'
+  import HealthcareFacilitiesLegend from './HealthcareFacilitiesLegend.vue'
+  import ReportNotes from './ReportNotes.vue'
 
 
   export default {

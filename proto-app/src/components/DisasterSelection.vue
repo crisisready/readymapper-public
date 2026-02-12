@@ -2,8 +2,8 @@
   <div class="disaster-title" :class="{ collapsed: headerCollapsed }" @click="toggleHeaderCollapsed()">
     <img :src="disasterIconByType(disasterType)">
     <h1>{{ selectedDisasterName }}</h1>  
-    <img v-if="!headerCollapsed" style="margin-left: auto;" src="img/minus-icon.svg">
-    <img v-if="headerCollapsed" style="margin-left: auto;" src="img/plus-icon.svg">
+    <img v-if="!headerCollapsed" style="margin-left: auto;" src="@/assets/img/minus-icon.svg">
+    <img v-if="headerCollapsed" style="margin-left: auto;" src="@/assets/img/plus-icon.svg">
   </div>
   
 </template>

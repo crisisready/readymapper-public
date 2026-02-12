@@ -43,7 +43,7 @@
       <div>
         <div style="display: flex; justify-content: space-between; width: 182px;">
           <span style="font-size: 12px;">Origin</span>
-          <img src="img/mobility-arrow-legend.svg">
+          <img src="@/assets/img/mobility-arrow-legend.svg">
           <span style="font-size: 12px;">Destination</span>
         </div>
       </div>
@@ -75,10 +75,10 @@ import dayjs from 'dayjs'
 
 import { settings } from '../../constants/settings'
 
-import LineChart from './LineChart'
-import PopDensityLegend from './PopDensityLegend'
-import VulnerabilityLegend from './VulnerabilityLegend'
-import HealthcareFacilitiesLegend from './HealthcareFacilitiesLegend'
+import LineChart from './LineChart.vue'
+import PopDensityLegend from './PopDensityLegend.vue'
+import VulnerabilityLegend from './VulnerabilityLegend.vue'
+import HealthcareFacilitiesLegend from './HealthcareFacilitiesLegend.vue'
 
 export default {
   name: 'Legend',

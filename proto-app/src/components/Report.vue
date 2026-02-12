@@ -62,13 +62,13 @@
 
   import { settings } from '../../constants/settings'
 
-  import ReportDisasterSection from './ReportDisasterSection'
-  import ReportVulnerabilitySection from './ReportVulnerabilitySection'
-  import ReportMovementSection from './ReportMovementSection'
-  import ReportInfrastructureSection from './ReportInfrastructureSection'
-  import ReportMobilityMatrixSection from './ReportMobilityMatrixSection'
-  import ReportNotes from './ReportNotes'
-  import Logos from './Logos'
+  import ReportDisasterSection from './ReportDisasterSection.vue'
+  import ReportVulnerabilitySection from './ReportVulnerabilitySection.vue'
+  import ReportMovementSection from './ReportMovementSection.vue'
+  import ReportInfrastructureSection from './ReportInfrastructureSection.vue'
+  import ReportMobilityMatrixSection from './ReportMobilityMatrixSection.vue'
+  import ReportNotes from './ReportNotes.vue'
+  import Logos from './Logos.vue'
 
   dayjs.extend(utc)
   dayjs.extend(timezone)

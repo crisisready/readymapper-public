@@ -19,7 +19,7 @@
   <div class="section bottom-border">
     <div class="title">Power Outages</div>
     <div class="legend-item">
-      <img class="legend-image" src="img/power-outage.png">
+      <img class="legend-image" src="@/assets/img/power-outage.png">
       <div> > 15% pop. without power</div>
     </div>
   </div>
@@ -67,10 +67,10 @@ import dayjs from 'dayjs'
 
 import { settings } from '../../constants/settings'
 
-import AcresAffectedLineChart from './AcresAffectedLineChart'
-import HurricaneWindSpeedLineChart from './HurricaneWindSpeedLineChart'
-import MapLegendFire from './MapLegendFire'
-import MapLegendHurricane from './MapLegendHurricane'
+import AcresAffectedLineChart from './AcresAffectedLineChart.vue'
+import HurricaneWindSpeedLineChart from './HurricaneWindSpeedLineChart.vue'
+import MapLegendFire from './MapLegendFire.vue'
+import MapLegendHurricane from './MapLegendHurricane.vue'
 
 export default {
   name: 'DisasterLegend',

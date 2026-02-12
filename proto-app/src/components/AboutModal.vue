@@ -2,7 +2,8 @@
 <div v-if="aboutModalVisible" class="report-modal-wrapper">
   <div class="report-modal-container">
     <div class="report-modal">
-      <div style="float: right;"><button @click.prevent="setAboutModalVisible(false)"><img src="img/close-icon.svg" /></button></div>
+      <div style="float: right;"><button
+          @click.prevent="setAboutModalVisible(false)"><img src="@/assets/img/close-icon.svg" /></button></div>
       <h2 class="title">About us</h2>
       <div>
         <div v-for="p in compiledParagraphs" :key="p" v-html="p" />
@@ -21,7 +22,7 @@ import { mapState, mapGetters, mapMutations } from 'vuex'
 
 import {marked} from 'marked'
 
-import Logos from './Logos'
+import Logos from './Logos.vue'
 
 export default {
   name: 'AboutModal',

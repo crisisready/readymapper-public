@@ -3,10 +3,10 @@ import _ from 'underscore'
 import { helpers } from '../helpers'
 import * as turf from '@turf/turf'
 import { deserialize } from "flatgeobuf/lib/mjs/geojson.js"
-import Logger, { LogLevel } from "flatgeobuf/lib/mjs/Logger.js"
+// import Logger, { LogLevel } from "flatgeobuf/lib/mjs/Logger.js"
 
 // set flatgeobuf logLevel to warnings
-Logger.logLevel = LogLevel.Warn
+// Logger.logLevel = LogLevel.Warn
 
 import { settings } from '../../constants/settings'
 import { addAcsDataToFeature, addIntlVulnerabilityDataToFeature } from './utils/acsData'

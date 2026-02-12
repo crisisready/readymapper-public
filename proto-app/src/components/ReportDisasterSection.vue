@@ -18,9 +18,9 @@
 
   // import { settings } from '../../constants/settings'
 
-  import ReportDisasterSectionFire from './ReportDisasterSectionFire'
-  import ReportDisasterSectionHurricane from './ReportDisasterSectionHurricane'
-  import ReportNotes from './ReportNotes'
+  import ReportDisasterSectionFire from './ReportDisasterSectionFire.vue'
+  import ReportDisasterSectionHurricane from './ReportDisasterSectionHurricane.vue'
+  import ReportNotes from './ReportNotes.vue'
 
   export default {
     name: 'ReportDisasterSection',

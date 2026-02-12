@@ -12,7 +12,7 @@
       </button>
     </div>
     <div class="selected-locations">
-      <img src="img/selected-locations-icon.svg">
+      <img src="@/assets/img/selected-locations-icon.svg">
       <div>{{selectedLocationsNumber}}</div>
     </div>
     <button @click="clearSelectedLocations()">Clear All</button>

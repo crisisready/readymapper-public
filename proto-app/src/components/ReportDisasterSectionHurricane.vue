@@ -55,9 +55,9 @@
 
   import { settings } from '../../constants/settings'
 
-  import ReportTable from './ReportTable'
-  import HurricaneWindSpeedLineChart from './HurricaneWindSpeedLineChart'
-  import MapLegendHurricane from './MapLegendHurricane'
+  import ReportTable from './ReportTable.vue'
+  import HurricaneWindSpeedLineChart from './HurricaneWindSpeedLineChart.vue'
+  import MapLegendHurricane from './MapLegendHurricane.vue'
 
   export default {
     name: 'ReportDisasterSectionHurricane',

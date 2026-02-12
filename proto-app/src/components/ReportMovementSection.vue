@@ -61,10 +61,10 @@
 
   import { settings } from '../../constants/settings'
 
-  import ReportTable from './ReportTable'
-  import PopDensityLineChart from './PopDensityLineChart'
-  import PopDensityLegendReport from './PopDensityLegendReport'
-  import ReportNotes from './ReportNotes'
+  import ReportTable from './ReportTable.vue'
+  import PopDensityLineChart from './PopDensityLineChart.vue'
+  import PopDensityLegendReport from './PopDensityLegendReport.vue'
+  import ReportNotes from './ReportNotes.vue'
 
   dayjs.extend(utc)
   dayjs.extend(timezone)

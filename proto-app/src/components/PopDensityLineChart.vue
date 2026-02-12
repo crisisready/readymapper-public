@@ -28,7 +28,7 @@ import * as d3 from 'd3'
 
 import { settings } from '../../constants/settings'
 
-import LineChart from './LineChart'
+import LineChart from './LineChart.vue'
 
 export default {
   props: {

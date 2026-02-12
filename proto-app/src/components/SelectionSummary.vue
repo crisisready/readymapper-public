@@ -3,16 +3,16 @@
     <div class="pagination-controls">
       <button class="circle-button empty" style="margin-left: 6px"
               @click="removeLocation()">
-        <img src="img/x.svg">
+        <img src="@/assets/img/x.svg">
       </button>
       <h4 style="margin-left: 6px">{{currentLocationName}}</h4>
       <button class="circle-button solid" style="margin-right: 6px;" v-if="selectedLocations?.length > 1"
               @click="previousLocation()">
-        <img src="img/left-caret.svg">
+        <img src="@/assets/img/left-caret.svg">
       </button>
       <button class="circle-button solid" style="margin-right: 6px;" v-if="selectedLocations?.length > 1"
               @click="nextLocation()">
-        <img src="img/right-caret.svg">
+        <img src="@/assets/img/right-caret.svg">
       </button>
     </div>
 
@@ -115,10 +115,10 @@
 import { mapState, mapGetters, mapMutations } from 'vuex'
 import * as d3 from 'd3'
 
-import PowerOutageLineChart from './PowerOutageLineChart'
-import PopDensityLineChart from './PopDensityLineChart'
-import PointChart from './PointChart'
-import SummaryTable from './SummaryTable'
+import PowerOutageLineChart from './PowerOutageLineChart.vue'
+import PopDensityLineChart from './PopDensityLineChart.vue'
+import PointChart from './PointChart.vue'
+import SummaryTable from './SummaryTable.vue'
 
 import { settings } from '../../constants/settings'
 

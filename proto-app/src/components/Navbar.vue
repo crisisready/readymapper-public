@@ -3,15 +3,15 @@
     <div class="nav-wrapper">
       <div class="content">
         <div :class="`logo-container ${!navbarOpen && 'justify-center'}`" @click="toggleOpen">
-          <img style="height: 30px; width: 21px;" src="img/ready-mapper-logo.png">
+          <img style="height: 30px; width: 21px;" src="@/assets/img/ready-mapper-logo.png">
           <p v-if="navbarOpen" class="nav-title"><span class="b">Ready</span>Mapper</p>
         </div>
         <div v-if="!navbarOpen" class="disaster-icons-container">
           <button class="disaster-button" @click="openDisaster('fire')">
-            <img style="height: 20px; width: 20px;" src="img/wildfire-header-icon.svg">
+            <img style="height: 20px; width: 20px;" src="@/assets/img/wildfire-header-icon.svg">
           </button>
           <button class="disaster-button" @click="openDisaster('hurricane')">
-            <img style="height: 20px; width: 20px;" src="img/hurricane-header-icon.svg">
+            <img style="height: 20px; width: 20px;" src="@/assets/img/hurricane-header-icon.svg">
           </button>
         </div>
         <div v-if="navbarOpen" class="disaster-selection-container">
@@ -24,15 +24,17 @@
       <div class="footer">
         <div style="margin-bottom: 20px">
           <div class="contact-info" @click="setAboutModalVisible(true)">
-            <button><img src="img/info-icon.svg" /></button>
+            <button><img src="@/assets/img/info-icon.svg" /></button>
             <a v-if="navbarOpen">About Us</a>
           </div>
         </div>
 
         <div class="footer-wrapper" :style="navbarOpen ? 'align-self: flex-end;' : ''">
           <button class="toggle-button" @click="toggleOpen">
-            <img v-if="!navbarOpen" aria-label="Open navbar" style="height: 20px; width: 20px;" src="img/navbar-arrow.png">
-            <img v-if="navbarOpen" aria-label="Close navbar" style="height: 20px; width: 20px;" src="img/navbar-arrow-close.png">
+            <img v-if="!navbarOpen" aria-label="Open navbar" style="height:
+            20px; width: 20px;" src="@/assets/img/navbar-arrow.png">
+            <img v-if="navbarOpen" aria-label="Close navbar" style="height:
+            20px; width: 20px;" src="@/assets/img/navbar-arrow-close.png">
           </button>
         </div>
       </div>
@@ -43,7 +45,7 @@
 <script>
 import { mapState, mapGetters, mapMutations } from 'vuex'
 
-import NavbarDisasterSelector from '../components/NavbarDisasterSelector'
+import NavbarDisasterSelector from '../components/NavbarDisasterSelector.vue'
 
 import { settings } from '../../constants/settings'
 

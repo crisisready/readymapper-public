@@ -89,9 +89,9 @@
 
   import { settings } from '../../constants/settings'
 
-  import ReportTable from './ReportTable'
-  import AcresAffectedLineChart from './AcresAffectedLineChart'
-  import MapLegendFire from './MapLegendFire'
+  import ReportTable from './ReportTable.vue'
+  import AcresAffectedLineChart from './AcresAffectedLineChart.vue'
+  import MapLegendFire from './MapLegendFire.vue'
 
   export default {
     name: 'ReportDisasterSectionFire',

@@ -2,26 +2,31 @@
   <div class="legend-container" v-if="disasterType === 'hurricane'">
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-icon.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-icon.png">
         <div>Storm Category</div>
       </div>
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-wind-speed-perimeter.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-wind-speed-perimeter.png">
         <div>Category 1 wind speed perimeter (> 74mph)</div>
       </div>
 
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-storm-surge.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-storm-surge.png">
         <div>Storm surge alert</div>
       </div>
     </div>
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-pathway.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-pathway.png">
         <div>Forecast Pathway</div>
       </div>
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-wind-speed-chance.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-wind-speed-chance.png">
         <div>Chance of category 1 wind speeds (> 74mph)</div>
       </div>
 
@@ -30,17 +35,20 @@
   <div class="legend-container"  v-if="disasterType === 'cyclone'">
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-icon.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-icon.png">
         <div>Storm Category</div>
       </div>
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-wind-speed-perimeter.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-wind-speed-perimeter.png">
         <div>Category 1 wind speed perimeter (> 119kph)</div>
       </div>
     </div>
     <div class="legend-col">
       <div class="legend-item">
-        <img class="legend-image" style="height: 15px; width: 20px;" src="img/hurricane-legend-pathway.png">
+        <img class="legend-image" style="height: 15px; width: 20px;"
+        src="@/assets/img/hurricane-legend-pathway.png">
         <div>Forecast Pathway</div>
       </div>
     </div>

@@ -8,14 +8,14 @@
     <div class="timeslider-container">
       <div class="playback-controls">
         <button v-on:click="stepBackward">
-          <img src="img/skip-backward.svg">
+          <img src="@/assets/img/skip-backward.svg">
         </button>
         <button v-on:click="play">
-          <img v-if="!playing" src="img/play-icon.svg">
-          <img v-if="playing" src="img/pause-icon.svg">
+          <img v-if="!playing" src="@/assets/img/play-icon.svg">
+          <img v-if="playing" src="@/assets/img/pause-icon.svg">
         </button>
         <button v-on:click="stepForward">
-          <img src="img/skip-forward.svg">
+          <img src="@/assets/img/skip-forward.svg">
         </button>
       </div>
 

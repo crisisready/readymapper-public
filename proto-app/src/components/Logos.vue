@@ -1,14 +1,14 @@
 <template>
   <div class="logos">
     <a href="https://crisisready.io/">
-      <img class="logo" src="img/crisis-ready-logo-lg.png">
+      <img class="logo" src="@/assets/img/crisis-ready-logo-lg.png">
     </a>
     <div class="logos-sub">
       <a href="https://datascience.harvard.edu/">
-        <img class="logo" src="img/hdsi-logo.png">
+        <img class="logo" src="@/assets/img/hdsi-logo.png">
       </a>
       <a href="https://www.directrelief.org/">
-        <img class="logo" src="img/direct-relief-logo.png">
+        <img class="logo" src="@/assets/img/direct-relief-logo.png">
       </a>
     </div>
   </div>

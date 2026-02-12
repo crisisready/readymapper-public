@@ -33,13 +33,13 @@
 <script>
 import { mapState, mapGetters, mapMutations } from 'vuex'
 
-import Legend from '../components/Legend'
-import DisasterLegend from '../components/DisasterLegend'
-import SelectionSummary from '../components/SelectionSummary'
-import GenerateReportButton from '../components/GenerateReportButton'
-import RegionTypeSelection from './RegionTypeSelection'
-import DisasterSelection from './DisasterSelection'
-import TabSelection from './TabSelection'
+import Legend from '../components/Legend.vue'
+import DisasterLegend from '../components/DisasterLegend.vue'
+import SelectionSummary from '../components/SelectionSummary.vue'
+import GenerateReportButton from '../components/GenerateReportButton.vue'
+import RegionTypeSelection from './RegionTypeSelection.vue'
+import DisasterSelection from './DisasterSelection.vue'
+import TabSelection from './TabSelection.vue'
 
 import { settings } from '../../constants/settings'
 
