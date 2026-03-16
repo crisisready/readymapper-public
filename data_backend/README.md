@@ -48,6 +48,7 @@ You must have these installed before starting.
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - Python 3.8
 - [Pipenv](https://pipenv.pypa.io/en/latest/)
+- [GDAL](https://gdal.org/en/stable/download.html#binaries)
 
 Then run:
 
